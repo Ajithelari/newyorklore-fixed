@@ -1,7 +1,8 @@
+// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
-  base: './'  // ✅ This fixes the white screen issue on Vercel
+  base: './', // ✅ Required for proper asset path resolution
+  plugins: [react()]
 });
