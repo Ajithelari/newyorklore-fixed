@@ -95,6 +95,40 @@ body {
 .logo {
   height: 40px;
 }
+/* Stories.css */
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.story-card {
+  position: relative;
+  overflow: hidden;
+}
+.story-card img {
+  width: 100%;
+  display: block;
+}
+.story-card .overlay {
+  position: absolute;
+  bottom: 0;
+  background: #E91E63;
+  color: white;
+  text-align: center;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in;
+  padding: 0.5rem;
+}
+.story-card:hover .overlay {
+  transform: translateY(0);
+}
+.error-banner {
+  background: red;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
 
 
 h1, h2, h3, h4, h5, h6 {
