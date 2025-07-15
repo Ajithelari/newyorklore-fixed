@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './Stories.css';
 
 export default function Stories() {
   const [stories, setStories] = useState([]);
@@ -19,7 +18,12 @@ export default function Stories() {
   }, []);
 
   return (
-    <div className="story-container">
+    <div className="container">
+      <h2>Stories</h2>
+
+      <p>New York is full of undiscovered stories. Here are just a few shared by our community.</p>
+      <p>Read, share, and explore urban legends, cultural insights, and unforgettable city moments.</p>
+
       {error && <div className="error-banner">Unable to load stories.</div>}
       <div className="story-grid">
         {stories.map((story, i) => (
