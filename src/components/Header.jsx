@@ -1,6 +1,5 @@
-// src/components/Header.jsx
 import { Link } from 'react-router-dom';
-import './Header.css'; // Add CSS for sticky + shadow
+import './Header.css';
 
 export default function Header() {
   return (
