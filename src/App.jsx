@@ -6,19 +6,6 @@ import Home from './pages/Home';
 import Stories from './pages/Stories';
 import Submit from './pages/Submit';
 
-// src/App.jsx or App.jsx depending on your structure
-function App() {
-  return (
-    <div style={{ textAlign: "center", padding: "2rem" }}>
-      <h1>🎉 Welcome to New York Lore!</h1>
-      <p>This Vite + React app is now working on Vercel 🚀</p>
-    </div>
-  )
-}
-
-export default App;
-
-
 function App() {
   return (
     <Router>
