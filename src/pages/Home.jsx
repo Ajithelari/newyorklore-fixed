@@ -13,7 +13,7 @@ function Home() {
       <section className="bg-gray-100 border border-[#E91E63] p-4 mb-8 text-center text-[#424242] font-[Lora] text-[18px]">
         <a
           href="https://careduel.com/topic-of-the-week"
-          className="underline hover:text-[#E91E63] transition"
+          className="underline hover:text-[#E91E63] transition"className="care-banner"
           target="_blank"
           rel="noopener noreferrer"
         >
